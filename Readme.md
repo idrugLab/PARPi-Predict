@@ -55,6 +55,16 @@ choose the target(s) (ALL, PARP-1, PARP-2, PARP-5A, PARP-5B)
 ### **3.**
 The predicted molecule profiling results by PARPi-Predict can be downloaded as .csv
 
+### **4.**
+The result file contains the prediction of four PARP subtypes.
+
+| # | SMILES | PARP-1 | PARP-2 | PARP-5A | PARP-5B |
+| ----- | ----- | ----- | ----- | ----- | ----- |
+| 1 | CCC(CC)COC(=O)\[C@H](C)N\[P@](=O)(OC\[C@H]1O\[C@@](C#N)(c2ccc3c(N)ncnn23)\[C@H](O)\[C@@H]1O)Oc1ccccc1	| 0.997	| 0.999	| 1.000	| 1.000 |
+| 2 | \[H]c1c(\[H])c(\[H])c(C(=O)C(\[H])(\[H])Oc2c(\[H])c(\[H])c(\[H])c3c(=O)n(\[H])c(\[H])c(\[H])c23)c(\[H])c1\[H] | 0.498 | 0.323 | 0.122	| 0.246 |
+| 3 | FC1=CC=C(CC2=NNC(=O)C3=CC=CC=C23)C=C1C(=O)N1CCN(CC1)C(=O)C1CC1 | 1.000 | 0.999 | 0.496 | 0.415 |
+| 4 | NC(Cn1ccc(=O)n(Cc2ccccc2C(=O)O)c1=O)C(=O)O | 0.991 | 0.996	| 0.971 | 0.788 |
+| 5 | Cc1n\[nH]c(C)c1N=Nc1cc(Cl)ccc1Cl	| 0.965	| 0.940	| 0.728	| 0.437 |
 
 ---
 # **Commands of FP-GNN**
